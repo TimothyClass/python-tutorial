@@ -1,4 +1,4 @@
-# Python programming tutorial
+# Python programming tutorial for beginners
 
 This is a concise Python 3 programming tutorial for people who think
 that reading is boring. I try to show everything with simple code
@@ -12,14 +12,8 @@ or very little programming experience. If you have programmed a lot in
 the past using some other language you may want to read [the official
 tutorial](https://docs.python.org/3/tutorial/) instead.
 
-You can use Python 3.3 or any newer Python with this tutorial. **Don't
-use Python 2.** If you write a Python 2 program now someone will need to
-convert it to Python 3 later, so it's best to just write Python 3 to
-begin with. Python 3 code will work just fine in Python 4, so you don't
-need to worry about that. Python 2 also has horrible
-[Unicode](http://www.unicode.org/standard/WhatIsUnicode.html) problems,
-so it's difficult to write Python 2 code that works correctly with
-non-English characters (like π and ♫).
+You can use Python 3.5 or any newer Python with this tutorial. **Don't
+use Python 2 because it's no longer supported.**
 
 ## List of contents
 
@@ -59,7 +53,7 @@ section. Most of the techniques explained here are great when you're
 working on a large project, and your code would be really repetitive
 without these things.
 
-You can experient with these things freely, but please **don't use these
+You can experiment with these things freely, but please **don't use these
 techniques just because you know how to use them.** Prefer the simple
 techniques from the Basics part instead when possible. Simple is better
 than complex.
@@ -110,11 +104,8 @@ pull with git and run `make-html.py` again.
 
 ## Authors
 
-I'm Akuli and I have written most of this tutorial, but these people
-have helped me with it:
-- [SpiritualForest](https://github.com/SpiritualForest): Lots of typing
-    error fixes.
-- [theelous3](https://github.com/theelous3): Small improvements and fixes.
+I'm Akuli and I have written most of this tutorial, but other people have helped me with it.
+See [github's contributors page](https://github.com/Akuli/python-tutorial/graphs/contributors) for details.
 
 ***
 

@@ -141,6 +141,29 @@ We'll talk more about loops [in the next chapter](loops.md).
 >>>
 ```
 
+Another useful thing about lists is **list comprehension**.
+It's a handy way to construct a list in single line. It often makes code cleaner, shorter and easier to read.
+
+```python
+>>> numbers = [1,2,3,4,5]
+>>> numbers_squared = [number ** 2 for number in numbers]
+>>> numbers_squared
+[1, 4, 9, 16, 25]
+>>>
+```
+
+Without a list comprehension, doing the same thing looks like this:
+
+```python
+>>> numbers = [1,2,3,4,5]
+>>> numbers_squared = []
+>>> for number in numbers:
+...     numbers_squared.append(number**2)
+>>> numbers_squared
+[1, 4, 9, 16, 25]
+>>>
+```
+
 We can also use slicing and indexing to change the content:
 
 ```python
